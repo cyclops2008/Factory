@@ -3,8 +3,15 @@ package main;
 public class FactoryMethodTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//System.out.println("Hello world!");
+		DaoFactory daofac = new DaoFactory();
+		String[] nameArr = {"XML","DataBase","WebService"};
+		for(String name: nameArr){
+			daofac.setSource(name);
+			for(int i=0;i<10;i++) {
+				Person newPerson = daofac.getPersonById(i);
+				System.out.println(newPerson.getId() + ": " + newPerson.getFirstName() + " " + newPerson.getLastName());				
+			}
+			System.out.println("");
+		}
 	}
-
 }

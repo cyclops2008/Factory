@@ -1,7 +1,7 @@
 package main;
 
 public class Person {
-	int  id;
+	int	id;
 	String firstName;
 	String lastName;
 	
@@ -9,5 +9,14 @@ public class Person {
 		this.id=id;
 		this.firstName=firstName;
 		this.lastName=lastName;
+	}
+	public int getId() {
+		return id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public String getLastName() {
+		return lastName;
 	}
 }
