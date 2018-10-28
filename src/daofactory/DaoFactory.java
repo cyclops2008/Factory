@@ -14,8 +14,11 @@ public class DaoFactory implements IDaoFactory {
 	Map<SourceType,IDaoFactory> daoMap=new HashMap<>();
 	IDaoFactory factory;
 	
-	public void setSource(String source) {
+	public DaoFactory() {
 		newMapping();
+	}
+	
+	public void setSource(String source) {
 		factory = daoMap.get(sourcetype.SourceType.valueOf(source));
 	}
 	@Override

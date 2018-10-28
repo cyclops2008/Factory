@@ -4,7 +4,7 @@ import daofactory.DaoFactory;
 import person.Person;
 
 public class FactoryMethodTester {
-
+	
 	public static void main(String[] args) {
 		DaoFactory daofac = new DaoFactory();
 		String[] nameArr = {"XML","DataBase","WebService"};
