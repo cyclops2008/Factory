@@ -1,4 +1,7 @@
-package main;
+package factortype;
+
+import idaofactory.IDaoFactory;
+import person.Person;
 
 public class FactoryWS implements IDaoFactory {
 	Person[] person = new Person[10];

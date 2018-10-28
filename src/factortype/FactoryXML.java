@@ -1,4 +1,7 @@
-package main;
+package factortype;
+
+import idaofactory.IDaoFactory;
+import person.Person;
 
 public class FactoryXML implements IDaoFactory {
 	Person[] person = new Person[10];

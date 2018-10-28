@@ -1,5 +1,8 @@
 package main;
 
+import daofactory.DaoFactory;
+import person.Person;
+
 public class FactoryMethodTester {
 
 	public static void main(String[] args) {
