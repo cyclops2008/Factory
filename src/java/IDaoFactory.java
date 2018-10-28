@@ -1,6 +1,4 @@
-package idaofactory;
-
-import person.Person;
+package java;
 
 public interface IDaoFactory {
 	Person getPersonById(int id);

@@ -1,7 +1,7 @@
 package main;
 
-import daofactory.DaoFactory;
-import person.Person;
+import java.DaoFactory;
+import java.Person;
 
 public class FactoryMethodTester {
 	

@@ -1,4 +1,4 @@
-package person;
+package java;
 
 public class Person {
 	int	id;
