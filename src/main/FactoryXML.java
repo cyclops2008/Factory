@@ -1,6 +1,6 @@
 package main;
 
-public class XMLFactory implements IDaoFactory {
+public class FactoryXML implements IDaoFactory {
 
 	@Override
 	public Person getPersonById(int id) {
